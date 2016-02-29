@@ -167,7 +167,20 @@
 						#TopicsMenu a {
 							text-decoration:none;
 							color:white;
-							
+						}
+						
+						#TopicsMenu a:hover: {
+							text-decoration:underline;
+							color:white;
+						}
+						
+						#NavigationLinks a:hover {
+							border-bottom: 4px solid green;
+   							position: relative;
+   							height: 60px;
+   							top: -3px;
+  							margin-top: 3px; 
+    						border-spacing: 10px
 						}
 						
 						#BBCGlobe {
@@ -184,90 +197,218 @@
 							right:1px;
 							
 						}
-					/*	
-						 Change the link color on hover to the one specified 		 		
-						.NavigationLinks a:hover {
-							background-color: green;					
-						} 
-						
-					*/
 					
+						#Content {
+							width: 100%;
+							color:#757575;
+							text-decoration:none;
+							padding-top:10px;
+						}
 						
+						#Content a {
+							text-decoration:none;
+							color:#757575;
+							font-size: 0.8em;
+							padding-top: 10px;
+						}
+					
+						#Date {
+						font-weight:bold;
+						color:#565656;
+						}
+						
+						h1 {
+						color:#4A7194;
+						margin:0;
+						padding-top:10px;
+						}
+						
+						#HeadlineImage {
+							padding-top:10px;
+							float:left;
+						}
+						
+						#News {
+							position:relative;
+							left:10px;
+							top:-6px;
+							width: 250px;
+   							font-size:0.9em;
+  							float:left;
+						}
+						
+						#News a {
+							color:#335E8D !important;
+							text-decoration:none;
+							font-size:0.9em;
+						}
+						
+						#News a:hover {
+							text-decoration:underline;
+						}
+						
+						.Videos {
+						color:#4a7194;
+						background-image:url("images/video_icon.jpg");
+						background-repeat:no-repeat;
+						background-position:left bottom;
+						padding-left:20px;
+						padding-top:-20px;
+						}
+						
+						.Links {
+							line-height:1.6em;
+						}
+						
+						.Sound {
+							background-image:url("images/sound.png");
+							background-repeat:no-repeat;
+							background-position:left bottom;
+							padding-left:20px;
+							padding-top:-20px;
+						}
+						
+						#WatchListen {
+							background-color:#EEEEEE;
+							width:340px;
+							float:right;
+							position:relative;
+							top:-55px;
+						}
+						
+						#WatchListen img {
+							float:right;
+							margin:0;
+							margin:20px 10px 10px 10px;
+						}
+						
+						h2 {
+							color:#505050;
+							padding:8px;
+							margin:0;
+						}
 					</style>
 			</head>
 			
 			<body>
-			<div id="BBCGlobe"> <img src="images/bbc_globe.jpg"/> </div>
+			
+			<div id="BBCGlobe"> 
+				<img src="images/bbc_globe.jpg"/>
+			</div>
 			
 				<div id="container">
 					
 					<div id="NavigationBar">
+					
 						<div class="FixedWidth">
 							
 							<div id="Logo">
-							<img src="images/bbc_logo.png"/>
+								<img src="images/bbc_logo.png"/>
 							</div>
 							
 							<div id="SignIn">
-							<img src="images/sign_in.png"/> Sign In
+								<img src="images/sign_in.png"/> Sign In
 							</div>
 							
 							<div id="NavigationLinks">	
 								<ul>
 									<li>News</li>
-									 <li><a href="sports.asp">Sport</a></li>
-									<li><a href="weather.asp">Weather</a></li>
-									<li><a href="iplayer.asp">iPlayer</a></li>
-									<li><a href="TV.asp">TV</a></li>
-									<li><a href="radio.asp">Radio</a></li>
-									<li><a href="more.asp">More...</a></li>						
+									 <li><a href="">Sport</a></li>
+									<li><a href="">Weather</a></li>
+									<li><a href="">iPlayer</a></li>
+									<li><a href="">TV</a></li>
+									<li><a href="">Radio</a></li>
+									<li><a href="">More...</a></li>						
 								</ul> 
 							</div>	
 
-							<div id="Search">
-								<input type="text" placeholder="Search"/>
-							</div>
+								<div id="Search">
+									<input type="text" placeholder="Search"/>
+								</div>
 						</div>
 					</div>
 			
 					<div class="break"></div>
 					
 					<div id="NewsBar">
+						
 						<div class="FixedWidth">
 							
 							<p id="NewsHeader">NEWS <span id="UK">UK</span> </p>
 							
 							<div id="rss">
-							RSS <img src="images/rss.png"/>
+								RSS <img src="images/rss.png"/>
 							</div>
 						
-								<div class="break"></div>
+								<div class="break">
+								<!--Nothing goes here--!>
+								</div>
 						
 									<div id="TopicsMenu">
 										<ul> 
-										<li><a href="home.asp">Home</li>
-										<li>World</li>
-										<li>UK</li>
-										<li>England</li>
-										<li>N. Ireland</li>
-										<li>Scotland</li>
-										<li>Wales</li>
-										<li>Business</li>
-										<li>Politics</li>
-										<li>Health</li>
-										<li>Education</li>
-										<li>Sci/Environmental</li>
-										<li>Technology</li>
-										<li style="border-right:none">Entertainment & Arts</li>
-									</ul>
-								</div>	
-							
+											<li><a href="">Home</a></li>
+											<li><a href="">World</a></li>
+											<li><a href="">UK</a></li>
+											<li><a href="">England</a></li>
+											<li><a href="">N. Ireland</a></li>
+											<li><a href="">Scotland</a></li>
+											<li><a href="">Wales</a></li>
+											<li><a href="">Business</a></li>
+											<li><a href="">Politics</a></li>
+											<li><a href="">Health</a></li>
+											<li><a href="">Education</a></li>
+											<li><a href="">Sci/Environmental</a></li>
+											<li><a href="">Technology</a></li>
+											<li style="border-right:none"><a href="">Entertainment & Arts</a></li>
+										</ul>
+									</div>	
 						</div>	
 					</div>
-		
-	
-							
 					
-				</div>
+					
+					<div class="break"></div>
+					
+					<div id="Content">
+						
+						<div class="FixedWidth">
+							
+							 <a href="fake_link.html"> <span id="Date">2 April 2014</span> Last updated at 14:13 </a>
+						
+								<h1> Pollution to spread across England </h1>
+								<img id="HeadlineImage" src="images/headline_image.jpg"/>
+								
+								<div id="News">
+							
+									<p>Health warnings have been issued by the government as pollution spreading across England is forecast to hit high levels.</p>
+												
+								<p class="Links">
+								
+									<a class="Videos" href="">Why are pollution levels so high?</a><br />
+								
+									<a class="Videos" href="">Saharan dust visible on cars</a><br />
+												 
+									<a class="Videos" href="">How Saharan dust reached the UK</a><br />
+												 
+									<a href="">What will pollution do to us?</a><br />
+												 
+									<a class="Sound" href="">Air pollution a 'serious issue'</a>
+												 
+								</p>
+								
+								</div>
+								
+								<div id="WatchListen">
+								
+									<img src="images/squares.png" />
+									
+									<h2>Watch/Listen</h2>
+									
+							
+								</div>
+									
+						</div>	
+					</div>
+					
+				</div><!-- Closing div for container--!>
 			</body>
 </html>
